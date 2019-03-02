@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+  }
+
+#wrapper {
+
+}
+
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+#name {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    border-bottom-color: #cccccc;
+}
+
+header {
+    background-color: #4aaaa5;
+    padding: 5px;
+    color: white;
+    margin: 0;
+    position: relative;
+    float: left;
+    top: 0;
+    left: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: white;
+    color: gray;
+    padding: 30px 0;
+    margin: 0;
+    position: relative;
+    float: right;
+    top: 0;
+    right: 0;
+    text-align: right;
+    font-size: 12px;
+}
+
+a:link {
+    color: gray;
+    padding: 10px;
+}
+
+#wrappercontent {
+    background-image: url(crossline-dots.png);
+    background-repeat: repeat;
+    clear: both;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-block-end: 15%;
+    border-top-color: #777777;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+#content {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+#about {
+    margin-left:10px;
+    margin-right: 10px;
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom-color: #777777;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+p{
+    float: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 90%;
+    line-height: 2;
+
+}
+
+footer {
+    padding: 20px;
+    background-color: #666666;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 10px;
+}
+
+input {
+    width: 920px;
+    padding: 12px 20px;
+    margin: 0px 20px 20px 20px;
+}
+
+label {
+    margin: 0px 20px 20px 20px;
+}
+
+#message {
+    padding: 10px 20px 140px 20px;
+    text-align: left;
+}
+
+.gallery {
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+
+.image {
+    width: 80%;
+}
+
+.desc {
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: white;
+    margin: 0;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    width: 80%;
+}
+
+#contentp {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    padding-bottom: 600px;
+    padding-top: 10px;
+}
